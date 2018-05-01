@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: 394c8d6c6531f4e4bb42b3845601cef5
+timeCreated: 1521638181
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Attach01_901
+    100002: Attach02_902
+    100004: BackHat
+    100006: BackLeftCloth
+    100008: BackRightCloth
+    100010: Center01_910
+    100012: FrontHat
+    100014: FrontLeftCloth
+    100016: FrontRightCloth
+    100018: fx01_950
+    100020: fx02_951
+    100022: Hat
+    100024: Hat1
+    100026: Hat2
+    100028: Hat3
+    100030: Hat4
+    100032: HatRim1
+    100034: HatRim2
+    100036: Head_210
+    100038: Hips_100
+    100040: jointroot
+    100042: LeftArm_510
+    100044: LeftForeArm_520
+    100046: LeftHand_530
+    100048: LeftLeg_310
+    100050: LeftShoulder_500
+    100052: LeftUpLeg_300
+    100054: //RootNode
+    100056: Reference_000
+    100058: RightArm_610
+    100060: RightForeArm_620
+    100062: RightHand_630
+    100064: RightLeg_410
+    100066: RightShoulder_600
+    100068: RightUpLeg_400
+    100070: RightWeapon_811
+    100072: Spine_110
+    100074: 'st010_01 (LOD: -1, VIS: 0, MAT: 0)'
+    100076: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 1'
+    100078: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 2'
+    100080: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 3'
+    100082: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 4'
+    100084: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 5'
+    100086: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 6'
+    100088: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 7'
+    100090: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 8'
+    100092: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 9'
+    400000: Attach01_901
+    400002: Attach02_902
+    400004: BackHat
+    400006: BackLeftCloth
+    400008: BackRightCloth
+    400010: Center01_910
+    400012: FrontHat
+    400014: FrontLeftCloth
+    400016: FrontRightCloth
+    400018: fx01_950
+    400020: fx02_951
+    400022: Hat
+    400024: Hat1
+    400026: Hat2
+    400028: Hat3
+    400030: Hat4
+    400032: HatRim1
+    400034: HatRim2
+    400036: Head_210
+    400038: Hips_100
+    400040: jointroot
+    400042: LeftArm_510
+    400044: LeftForeArm_520
+    400046: LeftHand_530
+    400048: LeftLeg_310
+    400050: LeftShoulder_500
+    400052: LeftUpLeg_300
+    400054: //RootNode
+    400056: Reference_000
+    400058: RightArm_610
+    400060: RightForeArm_620
+    400062: RightHand_630
+    400064: RightLeg_410
+    400066: RightShoulder_600
+    400068: RightUpLeg_400
+    400070: RightWeapon_811
+    400072: Spine_110
+    400074: 'st010_01 (LOD: -1, VIS: 0, MAT: 0)'
+    400076: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 1'
+    400078: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 2'
+    400080: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 3'
+    400082: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 4'
+    400084: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 5'
+    400086: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 6'
+    400088: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 7'
+    400090: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 8'
+    400092: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 9'
+    2100000: MageUnit
+    4300000: 'st010_01 (LOD: -1, VIS: 0, MAT: 0)'
+    4300002: 'st010_01 (LOD: -1, VIS: 0, MAT: 0)'
+    4300004: 'st010_01 (LOD: -1, VIS: 0, MAT: 0)'
+    4300006: 'st010_01 (LOD: -1, VIS: 0, MAT: 0)'
+    4300008: 'st010_01 (LOD: -1, VIS: 0, MAT: 0)'
+    4300010: 'st010_01 (LOD: -1, VIS: 0, MAT: 0)'
+    4300012: 'st010_01 (LOD: -1, VIS: 0, MAT: 0)'
+    4300014: 'st010_01 (LOD: -1, VIS: 0, MAT: 0)'
+    4300016: 'st010_01 (LOD: -1, VIS: 0, MAT: 0)'
+    4300018: 'st010_01 (LOD: -1, VIS: 0, MAT: 0)'
+    9500000: //RootNode
+    13700000: 'st010_01 (LOD: -1, VIS: 0, MAT: 0)'
+    13700002: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 1'
+    13700004: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 2'
+    13700006: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 3'
+    13700008: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 4'
+    13700010: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 5'
+    13700012: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 6'
+    13700014: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 7'
+    13700016: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 8'
+    13700018: 'st010_01 (LOD: -1, VIS: 0, MAT: 0) 9'
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
