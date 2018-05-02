@@ -264,7 +264,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1371981689}
         m_MethodName: BtnDemo
         m_Mode: 1
         m_Arguments:
@@ -873,7 +873,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1371981689}
         m_MethodName: BtnOpciones
         m_Mode: 1
         m_Arguments:
@@ -1444,7 +1444,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1371981689}
         m_MethodName: BtnVolver
         m_Mode: 1
         m_Arguments:
@@ -3099,6 +3099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1371981687}
   - component: {fileID: 1371981688}
+  - component: {fileID: 1371981689}
   m_Layer: 0
   m_Name: Main GUI
   m_TagString: Untagged
@@ -3144,6 +3145,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1371981689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1371981686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b94b02cecc0ca4408acfa36d04a88c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1568852755
 GameObject:
   m_ObjectHideFlags: 0
@@ -3357,7 +3369,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44ea320c58110b84caf5de3f65ac9dd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escenaActual: 0
 --- !u!4 &1651160697
 Transform:
   m_ObjectHideFlags: 0
@@ -3382,9 +3393,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74e99f4e8d75fa94ca9809515ddfb8eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioNormal: {fileID: 24500006, guid: 10192043da3b86f4e9a6277dbabb9f39, type: 2}
-  audioMute: {fileID: 245148144965095196, guid: 10192043da3b86f4e9a6277dbabb9f39,
-    type: 2}
 --- !u!1 &1656952547
 GameObject:
   m_ObjectHideFlags: 0
@@ -3598,7 +3606,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1371981689}
         m_MethodName: BtnSalir
         m_Mode: 1
         m_Arguments:
