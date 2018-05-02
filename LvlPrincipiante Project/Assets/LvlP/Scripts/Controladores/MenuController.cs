@@ -9,6 +9,7 @@
 
 #region Librerias
 using UnityEngine;
+using UnityEngine.UI;
 using LvlP.SubSistemas;
 using LvlP.Sistemas;
 #endregion
@@ -143,6 +144,15 @@ namespace LvlP.Controladores
 		{
 			QualitySettings.SetQualityLevel(6, true);
 			Debug.Log(QualitySettings.GetQualityLevel());
+		}
+
+		/// <summary>
+		/// <para>Cambio de muteo.</para>
+		/// </summary>
+		/// <param name="tog"></param>
+		public void CambioMute(Toggle tog)// Cambio de muteo
+		{
+			ManagerGame.Instance.GetComponent<ManagerAudio>().Mute = tog.isOn;
 		}
 		#endregion
 	}
