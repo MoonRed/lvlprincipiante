@@ -76,29 +76,62 @@ namespace LvlP.Controladores
 		#endregion
 
 		#region API
-		public void BtnDemo()
+		/// <summary>
+		/// <para>Btn para iniciar la demo.</para>
+		/// </summary>
+		public void BtnDemo()// Btn para iniciar la demo
 		{
 			transform.parent.GetComponentInChildren<ManagerLoader>().CargarNivel("Demo");
 		}
 
-		public void BtnOpciones()
+		/// <summary>
+		/// <para>Btn para abrir el menu opciones.</para>
+		/// </summary>
+		public void BtnOpciones()// Btn para abrir el menu opciones
 		{
 			animController.SetInteger("Index", mainx2Index);
 		}
 
-		public void BtnVolver()
+		/// <summary>
+		/// <para>Btn para abrir el menu volver.</para>
+		/// </summary>
+		public void BtnVolver()// Btn para abrir el menu volver
 		{
 			animController.SetInteger("Index", mainx1Index);
 		}
 
-		public void BtnSalir()
+		/// <summary>
+		/// <para>Btn para abrir el menu salir.</para>
+		/// </summary>
+		public void BtnSalir()// Btn para abrir el menu salir
 		{
 			animController.SetInteger("Index", mainx3Index);
 		}
 
-		public void Salir()
+		/// <summary>
+		/// <para>Btn para salir de la app.</para>
+		/// </summary>
+		public void Salir()// Btn para salir de la app
 		{
 			Application.Quit();
+		}
+
+		public void BtnGraficLow()
+		{
+			QualitySettings.SetQualityLevel(0, true);
+			Debug.Log(QualitySettings.GetQualityLevel());
+		}
+
+		public void BtnGraficMed()
+		{
+			QualitySettings.SetQualityLevel(2, true);
+			Debug.Log(QualitySettings.GetQualityLevel());
+		}
+
+		public void BtnGraficHig()
+		{
+			QualitySettings.SetQualityLevel(6, true);
+			Debug.Log(QualitySettings.GetQualityLevel());
 		}
 		#endregion
 	}
