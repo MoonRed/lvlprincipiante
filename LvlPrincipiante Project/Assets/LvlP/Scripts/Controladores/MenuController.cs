@@ -10,6 +10,7 @@
 #region Librerias
 using UnityEngine;
 using LvlP.SubSistemas;
+using LvlP.Sistemas;
 #endregion
 
 namespace LvlP.Controladores
@@ -81,6 +82,7 @@ namespace LvlP.Controladores
 		/// </summary>
 		public void BtnDemo()// Btn para iniciar la demo
 		{
+			ManagerGame.Instance.escenaActual = ManagerGame.EscenaActual.Demo;
 			transform.parent.GetComponentInChildren<ManagerLoader>().CargarNivel("Demo");
 		}
 
@@ -116,19 +118,28 @@ namespace LvlP.Controladores
 			Application.Quit();
 		}
 
-		public void BtnGraficLow()
+		/// <summary>
+		/// <para>Btn para cambiar el nivel grafico a low.</para>
+		/// </summary>
+		public void BtnGraficLow()// Btn para cambiar el nivel grafico a low
 		{
 			QualitySettings.SetQualityLevel(0, true);
 			Debug.Log(QualitySettings.GetQualityLevel());
 		}
 
-		public void BtnGraficMed()
+		/// <summary>
+		/// <para>Btn para cambiar el nivel grafico a Medio.</para>
+		/// </summary>
+		public void BtnGraficMed()// Btn para cambiar el nivel grafico a Medio
 		{
 			QualitySettings.SetQualityLevel(2, true);
 			Debug.Log(QualitySettings.GetQualityLevel());
 		}
 
-		public void BtnGraficHig()
+		/// <summary>
+		/// <para>Btn para cambiar el nivel grafico a Alto.</para>
+		/// </summary>
+		public void BtnGraficHig()// Btn para cambiar el nivel grafico a Alto
 		{
 			QualitySettings.SetQualityLevel(6, true);
 			Debug.Log(QualitySettings.GetQualityLevel());
