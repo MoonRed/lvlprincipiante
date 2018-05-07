@@ -9,6 +9,8 @@
 
 #region Librerias
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using LvlP.SubSistemas;
 #endregion
 
 namespace LvlP.Sistemas
@@ -80,5 +82,19 @@ namespace LvlP.Sistemas
 		}
 		#endregion
 
+		#region Actualizador
+		/// <summary>
+		/// <para>Actualizador de <see cref="ManagerGame"/>.</para>
+		/// </summary>
+		private void Update()// Actualizador de ManagerGame
+		{
+			// Si la escena actual es demo, activar funcionalidad de manager demo
+			if (escenaActual == EscenaActual.Demo && SceneManager.GetActiveScene().name == "Demo")
+			{
+				GameObject go = GameObject.Find("Manager");
+				go.GetComponent<ManagerDemo>().auxInit = true;
+			}
+		}
+		#endregion
 	}
 }
