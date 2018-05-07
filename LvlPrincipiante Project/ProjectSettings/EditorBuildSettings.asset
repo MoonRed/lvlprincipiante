@@ -7,4 +7,8 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/LvlP/Escenas/Main.unity
-    guid: fce66cc51dee4c64b8a617b9708055b9
+    guid: 827f001adecc2964b89b8514228721e4
+  - enabled: 1
+    path: Assets/LvlP/Escenas/Demo.unity
+    guid: b4242746a57d0e147846a2b5c5536b25
+  m_configObjects: {}
