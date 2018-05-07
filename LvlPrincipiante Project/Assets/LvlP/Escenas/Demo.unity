@@ -526,7 +526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 811ad34b4007af945b3422e54a019072, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  auxInit: 1
+  auxInit: 0
   vidas: 3
   puntoInicial: {fileID: 823524007}
   prefabEnemigo: {fileID: 4838108936141708, guid: 856a05824dfb1064eacf9d23fefaf85f,
