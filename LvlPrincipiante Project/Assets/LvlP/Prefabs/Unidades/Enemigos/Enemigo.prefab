@@ -36,6 +36,7 @@ GameObject:
   - component: {fileID: 4838108936141708}
   - component: {fileID: 136297285882981848}
   - component: {fileID: 54983994942225914}
+  - component: {fileID: 114200313192151966}
   m_Layer: 0
   m_Name: Enemigo
   m_TagString: Enemigo
@@ -238,6 +239,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100006, guid: e4c064591efaf3548a5dc66fe66472b8, type: 3}
   m_StaticBatchInfo:
@@ -272,6 +274,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100004, guid: e4c064591efaf3548a5dc66fe66472b8, type: 3}
   m_StaticBatchInfo:
@@ -306,6 +309,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100002, guid: e4c064591efaf3548a5dc66fe66472b8, type: 3}
   m_StaticBatchInfo:
@@ -340,6 +344,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100008, guid: e4c064591efaf3548a5dc66fe66472b8, type: 3}
   m_StaticBatchInfo:
@@ -374,6 +379,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: e4c064591efaf3548a5dc66fe66472b8, type: 3}
   m_StaticBatchInfo:
@@ -445,6 +451,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
+--- !u!114 &114200313192151966
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317414619521598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa621108d181374d897341c065a1ada, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vel: 10
+  goManager: {fileID: 0}
 --- !u!136 &136297285882981848
 CapsuleCollider:
   m_ObjectHideFlags: 1
