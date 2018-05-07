@@ -240,8 +240,9 @@ PlayerSettings:
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: "G:/Moon/User/Udemy/Curso Programaci\xF3n de Videojuegos/Repositorios/lvlprincipiante/LvlPrincipiante
+    Project/user.keystore"
+  AndroidKeyaliasName: antonio moon
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
   AndroidEnableTango: 0

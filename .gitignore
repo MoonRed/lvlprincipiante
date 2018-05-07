@@ -40,6 +40,10 @@ Thumbs.db
 *.msi
 *.msm
 *.msp
+
+# APK
+*.apk
+*.keystore
  
 # Configurador de carpetas
 Desktop.ini
