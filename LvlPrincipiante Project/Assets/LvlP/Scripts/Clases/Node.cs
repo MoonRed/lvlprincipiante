@@ -1,9 +1,9 @@
 ﻿//                                  ┌∩┐(◣_◢)┌∩┐
 //																				\\
-// Node.cs (02/05/2018)															\\
+// Node.cs (29/03/2018)															\\
 // Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
 // Descripcion:		Clase base del nodo.										\\
-// Fecha Mod:		02/05/2018													\\
+// Fecha Mod:		29/03/2018													\\
 // Ultima Mod:		Version Inicial												\\
 //******************************************************************************\\
 
@@ -27,7 +27,7 @@ namespace LvlP.Clases
 		/// <summary>
 		/// <para>Pequeña desviacion que se le quiera dar a la torre.</para>
 		/// </summary>
-		public Vector3 offSet;                                  // Pequeña desviacion que se le quiera dar a la torre
+		public Vector3 offSet;									// Pequeña desviacion que se le quiera dar a la torre
 		#endregion
 
 		#region Variables Privadas
@@ -46,7 +46,7 @@ namespace LvlP.Clases
 		/// <summary>
 		/// <para>Color inicial del nodo.</para>
 		/// </summary>
-		private Color colorInicial;                             // Color inicial del nodo
+		private Color colorInicial;								// Color inicial del nodo
 		#endregion
 
 		#region Inicializadores

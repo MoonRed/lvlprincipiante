@@ -1,9 +1,9 @@
 ﻿//                                  ┌∩┐(◣_◢)┌∩┐
 //																				\\
-// TorreController.cs (07/05/2018)												\\
+// TorreController.cs (29/03/2018)												\\
 // Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
 // Descripcion:		Controlador de la torre.									\\
-// Fecha Mod:		07/05/2018													\\
+// Fecha Mod:		29/03/2018													\\
 // Ultima Mod:		Version Inicial												\\
 //******************************************************************************\\
 
@@ -11,7 +11,7 @@
 using UnityEngine;
 #endregion
 
-namespace LvlP.Controladores
+namespace LvlP.Controllers
 {
 	/// <summary>
 	/// <para>Controlador de la torre.</para>
@@ -34,7 +34,7 @@ namespace LvlP.Controladores
 		/// <summary>
 		/// <para>Prefab del efecto.</para>
 		/// </summary>
-		public GameObject efectoPrefab;                     // Prefab del efecto
+		public GameObject efectoPrefab;						// Prefab del efecto
 		#endregion
 
 		#region Variables Privadas
@@ -57,7 +57,7 @@ namespace LvlP.Controladores
 		/// <summary>
 		/// <para>Posicion donde se inicia el ataque.</para>
 		/// </summary>
-		private Transform pInicioAtaque;                    // Posicion donde se inicia el ataque
+		private Transform pInicioAtaque;					// Posicion donde se inicia el ataque
 		#endregion
 
 		#region Inicializadores
@@ -102,7 +102,7 @@ namespace LvlP.Controladores
 		}
 		#endregion
 
-		#region Metodos Privados
+		#region Metodos privados
 		/// <summary>
 		/// <para>Actualiza el objetivo por prioridad.</para>
 		/// </summary>

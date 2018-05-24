@@ -1,9 +1,9 @@
 ﻿//                                  ┌∩┐(◣_◢)┌∩┐
 //																				\\
-// ManagerGame.cs (02/05/2018)													\\
+// ManagerGame.cs (26/03/2018)													\\
 // Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
 // Descripcion:		Manager general del game.									\\
-// Fecha Mod:		02/05/2018													\\
+// Fecha Mod:		26/03/2018													\\
 // Ultima Mod:		Version Inicial												\\
 //******************************************************************************\\
 
@@ -24,14 +24,22 @@ namespace LvlP.Sistemas
 		/// <summary>
 		/// <para>Escena actual del game.</para>
 		/// </summary>
-		public EscenaActual escenaActual;                               // Escena actual del game
+		public EscenaActual escenaActual;								// Escena actual del game
 		#endregion
 
 		#region Variables Privadas
 		/// <summary>
 		/// <para>Instancia del <see cref="ManagerGame"/>.</para>
 		/// </summary>
-		private static ManagerGame instance;                            // Instancia del ManagerGame
+		private static ManagerGame instance;							// Instancia del ManagerGame
+		/// <summary>
+		/// <para>Resolucion X.</para>
+		/// </summary>
+		private int screenx;											// Resolucion X
+		/// <summary>
+		/// <para>Resolucion Y.</para>
+		/// </summary>
+		private int screeny;											// Resolucion Y
 		#endregion
 
 		#region Propiedades

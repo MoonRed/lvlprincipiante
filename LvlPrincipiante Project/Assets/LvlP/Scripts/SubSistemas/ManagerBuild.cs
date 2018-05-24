@@ -1,9 +1,9 @@
 ﻿//                                  ┌∩┐(◣_◢)┌∩┐
 //																				\\
-// ManagerBuild.cs (02/05/2018)													\\
+// ManagerBuild.cs (29/03/2018)													\\
 // Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
 // Descripcion:		Manager de la construccion de torres.						\\
-// Fecha Mod:		02/05/2018													\\
+// Fecha Mod:		29/03/2018													\\
 // Ultima Mod:		Version Inicial												\\
 //******************************************************************************\\
 
@@ -22,21 +22,21 @@ namespace LvlP.SubSistemas
 		/// <summary>
 		/// <para>Instancia de <see cref="ManagerBuild"/>.</para>
 		/// </summary>
-		public static ManagerBuild instance;                // Instancia de ManagerBuild
+		public static ManagerBuild instance;				// Instancia de ManagerBuild
 		#endregion
 
 		#region Variables Publicas
 		/// <summary>
 		/// <para>Prefab de la torre para instanciar.</para>
 		/// </summary>
-		public GameObject torrePrefab;                      // Prefab de la torre para instanciar
+		public GameObject torrePrefab;						// Prefab de la torre para instanciar
 		#endregion
 
 		#region Variables Privadas
 		/// <summary>
 		/// <para>Siguiente torre para construir.</para>
 		/// </summary>
-		private GameObject torreAConstruir;                 // Siguiente torre para construir
+		private GameObject torreAConstruir;					// Siguiente torre para construir
 		#endregion
 
 		#region Inicializadores

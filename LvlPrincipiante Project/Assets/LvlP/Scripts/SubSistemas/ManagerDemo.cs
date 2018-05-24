@@ -1,9 +1,10 @@
 ﻿//                                  ┌∩┐(◣_◢)┌∩┐
+//                                  ┌∩┐(◣_◢)┌∩┐
 //																				\\
-// ManagerDemo.cs (07/05/2018)													\\
+// ManagerDemo.cs (28/03/2018)													\\
 // Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
 // Descripcion:		Manager de la escena Demo									\\
-// Fecha Mod:		07/05/2018													\\
+// Fecha Mod:		28/03/2018													\\
 // Ultima Mod:		Version Inicial												\\
 //******************************************************************************\\
 
@@ -57,7 +58,7 @@ namespace LvlP.SubSistemas
 		/// <summary>
 		/// <para>Imagen vida 3.</para>
 		/// </summary>
-		public GameObject vida3Imagen;                  // Imagen vida 3
+		public GameObject vida3Imagen;					// Imagen vida 3
 		#endregion
 
 		#region Variables Privadas
@@ -72,7 +73,7 @@ namespace LvlP.SubSistemas
 		/// <summary>
 		/// <para>Index de la oleada.</para>
 		/// </summary>
-		private int indexOleada = 0;                    // Index de la oleada
+		private int indexOleada = 0;					// Index de la oleada
 		#endregion
 
 		#region Actualizadores

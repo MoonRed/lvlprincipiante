@@ -5,7 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
-  - Fx
+  - Undefined
   - Enemigo
   layers:
   - Default

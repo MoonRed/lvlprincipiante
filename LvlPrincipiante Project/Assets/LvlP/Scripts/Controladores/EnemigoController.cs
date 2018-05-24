@@ -1,9 +1,9 @@
 ﻿//                                  ┌∩┐(◣_◢)┌∩┐
 //																				\\
-// EnemigoController.cs (07/05/2018)											\\
+// EnemigoController.cs (29/03/2018)											\\
 // Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
 // Descripcion:		Controller del enemigo.										\\
-// Fecha Mod:		07/05/20188													\\
+// Fecha Mod:		29/03/2018													\\
 // Ultima Mod:		Version Inicial												\\
 //******************************************************************************\\
 
@@ -12,12 +12,12 @@ using UnityEngine;
 using LvlP.SubSistemas;
 #endregion
 
-namespace LvlP.Controladores
+namespace LvlP.Controllers
 {
 	/// <summary>
 	/// <para>Controller del enemigo.</para>
 	/// </summary>
-	public class EnemigoController : MonoBehaviour 
+	public class EnemigoController : MonoBehaviour
 	{
 		#region Variables Publicas
 		/// <summary>
@@ -27,7 +27,7 @@ namespace LvlP.Controladores
 		/// <summary>
 		/// <para><see cref="ManagerDemo"/> de la escena.</para>
 		/// </summary>
-		public ManagerDemo goManager;                   // ManagerDemo de la escena
+		public ManagerDemo goManager;					// ManagerDemo de la escena
 		#endregion
 
 		#region Variables Privadas

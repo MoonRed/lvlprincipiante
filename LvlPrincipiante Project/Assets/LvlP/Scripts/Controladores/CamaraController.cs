@@ -1,9 +1,9 @@
 ﻿//                                  ┌∩┐(◣_◢)┌∩┐
 //																				\\
-// CamaraController.cs (07/05/2018)												\\
+// CamaraController.cs (29/03/2018)												\\
 // Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
 // Descripcion:		Controller de la camara.									\\
-// Fecha Mod:		07/05/2018													\\
+// Fecha Mod:		29/03/2018													\\
 // Ultima Mod:		Version Inicial												\\
 //******************************************************************************\\
 
@@ -12,7 +12,7 @@ using UnityEngine;
 using UnityEngine.UI;
 #endregion
 
-namespace LvlP.Controladores
+namespace LvlP.Controllers
 {
 	/// <summary>
 	/// <para>Controller de la camara.</para>
@@ -23,7 +23,7 @@ namespace LvlP.Controladores
 		/// <summary>
 		/// <para>Scrollbar de la escena.</para>
 		/// </summary>
-		public Scrollbar scroll;                                    // Scrollbar de la escena
+		public Scrollbar scroll;									// Scrollbar de la escena
 		#endregion
 
 		#region Metodos Publicos

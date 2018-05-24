@@ -1,9 +1,9 @@
 ﻿//                                  ┌∩┐(◣_◢)┌∩┐
 //																				\\
-// MenuController.cs (02/05/2018)												\\
+// MenuController.cs (23/03/2018)												\\
 // Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
 // Descripcion:		Controlador del menu principal.								\\
-// Fecha Mod:		02/05/2018													\\
+// Fecha Mod:		23/03/2018													\\
 // Ultima Mod:		Version Inicial												\\
 //******************************************************************************\\
 
@@ -14,7 +14,7 @@ using LvlP.SubSistemas;
 using LvlP.Sistemas;
 #endregion
 
-namespace LvlP.Controladores
+namespace LvlP.Controllers
 {
 	/// <summary>
 	/// <para>Controlador del menu principal.</para>
@@ -33,14 +33,14 @@ namespace LvlP.Controladores
 		/// <summary>
 		/// <para>Index de Mainx3.</para>
 		/// </summary>
-		private const int mainx3Index = 2;                  // Index de Mainx3
+		private const int mainx3Index = 2;					// Index de Mainx3
 		#endregion
 
 		#region Variables Privadas
 		/// <summary>
 		/// <para>Animator Controller padre.</para>
 		/// </summary>
-		private Animator animController;                    // Animator Controller padre
+		private Animator animController;					// Animator Controller padre
 		#endregion
 
 		#region Propiedades

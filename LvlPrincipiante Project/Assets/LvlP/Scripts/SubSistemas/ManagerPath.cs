@@ -1,9 +1,9 @@
 ﻿//                                  ┌∩┐(◣_◢)┌∩┐
 //																				\\
-// ManagerPath.cs (07/05/2018)													\\
+// ManagerPath.cs (28/03/2018)													\\
 // Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
 // Descripcion:		Manager de rutas											\\
-// Fecha Mod:		07/05/2018													\\
+// Fecha Mod:		28/03/2018													\\
 // Ultima Mod:		Version Inicial												\\
 //******************************************************************************\\
 
@@ -26,7 +26,7 @@ namespace LvlP.SubSistemas
 		/// <summary>
 		/// <para>Puntos de Waypoints.</para>
 		/// </summary>
-		public static Transform[] puntos;                   // Puntos de Waypoints
+		public static Transform[] puntos;					// Puntos de Waypoints
 		#endregion
 
 		#region Inicializadores

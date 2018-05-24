@@ -1,9 +1,9 @@
 ﻿//                                  ┌∩┐(◣_◢)┌∩┐
 //																				\\
-// ManagerLoader.cs (01/05/2018)												\\
+// ManagerLoader.cs (20/03/2018)												\\
 // Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
 // Descripcion:		Manager que controla el cambio de escena.					\\
-// Fecha Mod:		01/05/2018													\\
+// Fecha Mod:		20/03/2018													\\
 // Ultima Mod:		Version Inicial												\\
 //******************************************************************************\\
 
@@ -64,11 +64,15 @@ namespace LvlP.SubSistemas
 				Debug.LogError("La escena " + nombreNivel + " no existe o no esta en BuildSettings.");
 			}
 		}
-
 		#endregion
 
 		#region Procesado
-		IEnumerator FadeIn(string nombreNivel)
+		/// <summary>
+		/// <para>Proceso FadeIn.</para>
+		/// </summary>
+		/// <param name="nombreNivel">Nombre del nivel.</param>
+		/// <returns></returns>
+		IEnumerator FadeIn(string nombreNivel)// Proceso FadeIn
 		{
 			// Crear una variable temporal para la velocidad
 			const float velFade = 3f;
@@ -82,7 +86,7 @@ namespace LvlP.SubSistemas
 			while (canvasGroupLoader.alpha < 0.99f)
 			{
 				// Aqui tenemos el timescale a 0
-				// entonces tenemos que usar unscaledDeltaTime
+				// entonces tenemos que usarl unscaledDeltaTime
 				canvasGroupLoader.alpha += Time.unscaledDeltaTime * velFade;
 				yield return null;
 			}
@@ -90,7 +94,7 @@ namespace LvlP.SubSistemas
 			// En este momento, el alfa es aproximadamente 0,9, por lo que lo forzamos a 1
 			canvasGroupLoader.alpha = 1f;
 
-			// Timescale a 1
+			// TimeScale a 1
 			Time.timeScale = 1f;
 
 			// Cargamos el mismo nivel
@@ -104,11 +108,11 @@ namespace LvlP.SubSistemas
 		/// </summary>
 		protected void PrepararCambioNivel()// Prepara los objetos para el cambio de nivel
 		{
-			// Activar el objeto loader, selecciona el padre
+			// Activa el objeto loader, selecciona el padre 
 			loader.SetActive(true);
 			loader.transform.SetParent(this.transform.parent);
 
-			// Mueve al loader al final de la lista
+			// Mueve al loader al final de la lista para que sea el primero en renderizar
 			loader.transform.SetAsLastSibling();
 		}
 

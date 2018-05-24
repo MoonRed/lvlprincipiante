@@ -1,15 +1,15 @@
 ﻿//                                  ┌∩┐(◣_◢)┌∩┐
 //																				\\
-// OpcionesEstado.cs (02/05/2018)												\\
+// OpcionesEstado.cs (23/03/2018)												\\
 // Autor: Antonio Mateo (.\Moon Antonio) 	antoniomt.moon@gmail.com			\\
 // Descripcion:		Estado de opciones.											\\
-// Fecha Mod:		02/05/2018													\\
+// Fecha Mod:		23/03/2018													\\
 // Ultima Mod:		Version Inicial												\\
 //******************************************************************************\\
 
 #region Librerias
 using UnityEngine;
-using LvlP.Controladores;
+using LvlP.Controllers;
 #endregion
 
 namespace LvlP.Estados
@@ -17,7 +17,7 @@ namespace LvlP.Estados
 	/// <summary>
 	/// <para>Estado de opciones.</para>
 	/// </summary>
-	public class OpcionesEstado : StateMachineBehaviour 
+	public class OpcionesEstado : StateMachineBehaviour
 	{
 		#region Estados
 		/// <summary>
